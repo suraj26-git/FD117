@@ -13,6 +13,11 @@ public class GitHome {
 		System.out.println("sub..GitHome");
 	}
 	
+	public void multi()
+	{
+		System.out.println("multi..GitHome");
+	}
+	
 	public static void main(String[] args) {
 		
 		System.out.println("Simple Git Demo project");
