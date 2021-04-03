@@ -9,18 +9,21 @@ public class GitHome {
 	}
 	
 	
-	public void sub()
+	public void sub(int a,int b)
 	{
+		int c=a-b;
 		System.out.println("sub..GitHome");
 	}
 	
-	public void multi()
+	public void multi(int a,int b)
 	{
+		int c=a*b;
 		System.out.println("multi..GitHome");
 	}
 	
-	public void divi()
+	public void divi(int a,int b)
 	{
+		int c=a/b;
 		System.out.println("divi..GitHome");
 	}
 	
@@ -36,6 +39,9 @@ public class GitHome {
 		
 		GitHome rt= new GitHome();
 		rt.sum(10,20);
+		rt.sub(80, 20);
+		rt.multi(3, 5);
+		rt.divi(30, 5);
 		
 	}
 
