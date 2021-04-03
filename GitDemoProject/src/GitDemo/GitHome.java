@@ -2,9 +2,10 @@ package GitDemo;
 
 public class GitHome {
 	
-	public void sum()
+	public void sum(int a,int b)
 	{
-		System.out.println("sum..GitHome");
+		int c =a+b;
+		System.out.println("sum..GitHome"+c);
 	}
 	
 	
@@ -34,6 +35,7 @@ public class GitHome {
 		System.out.println("Simple Git Demo project");
 		
 		GitHome rt= new GitHome();
+		rt.sum(10,20);
 		
 	}
 
