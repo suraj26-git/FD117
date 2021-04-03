@@ -23,6 +23,11 @@ public class GitHome {
 		System.out.println("divi..GitHome");
 	}
 	
+	public void avg()
+	{
+		System.out.println("avg..GitHome");
+	}
+	
 	
 	public static void main(String[] args) {
 		
