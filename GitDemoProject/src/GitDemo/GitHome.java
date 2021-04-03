@@ -18,6 +18,12 @@ public class GitHome {
 		System.out.println("multi..GitHome");
 	}
 	
+	public void divi()
+	{
+		System.out.println("divi..GitHome");
+	}
+	
+	
 	public static void main(String[] args) {
 		
 		System.out.println("Simple Git Demo project");
