@@ -4,5 +4,4 @@ Update my first repository
 <br>
 Hello World
 <br>
-<Author> Suraj Jungare
-
+Author -  Suraj Jungare
